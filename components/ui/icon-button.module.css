@@ -1,0 +1,54 @@
+.button,
+.buttonPrimary,
+.buttonSuccess,
+.buttonError {
+  border-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 100px;
+  
+  box-shadow: 0px 0px 2px 1px #00000080;
+  transition: all .1s ease-in-out;
+}
+
+.buttonPrimary{
+    
+  background-color: var(--color-primary);
+  
+}
+
+.buttonSuccess{
+  
+  background-color: var(--color-success);
+  
+}
+
+.buttonError{
+  background-color: var(--color-error);
+ 
+}
+
+.button:hover,
+.buttonPrimary:hover,
+.buttonSuccess:hover,
+.buttonError:hover {
+  transform: scale(1.1);  
+}
+
+.button:focus,
+.buttonPrimary:focus,
+.buttonSuccess:focus,
+.buttonError:focus {
+    outline:none;
+    
+}
+
+.button:active,
+.buttonPrimary:active,
+.buttonSuccess:active,
+.buttonError:active {
+  transform: translateY(2px);   
+}
+
